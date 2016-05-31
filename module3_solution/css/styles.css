@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+/*	padding: 10px;*/
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+	/*position: relative;*/
+}
+
+/*Header Food,LLC*/
+#header-nav {
+	background-color: #d5d5d5;
+	border: 1px solid black;
+	border-radius: 0;
+	height: 50px;
+}
+
+.navbar-brand {
+	margin-top: -30px;
+}
+
+.navbar-brand h1 {
+	color: #000000;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	/*color: #000000;*/
+}
+/* End Header Food,LLC*/
+
+#nav-list {
+	text-align: center;
+	min-height: 30px
+	font-size: 2em
+	background-color: #d5d5d5;
+	overflow: visible;
+	/*height: auto;*/
+}
+
+#collapsable-nav {
+	/*position: relative;*/
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	/*padding-right: 5px;*/
+	background-color:#d5d5d5;
+}
+
+#collapsable-nav hr {
+	width: 100%;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	color: green;
+	border-width: 2px;
+}
+/*Menu Button*/
+
+#menu-categories-title {
+	margin-top: 110px;
+}
+
+/*Items Chicken, Beef, Sushi*/
+.menu-item-title {
+	text-align: center;
+	background-color: #d5d5d5;
+}
+
+.menu-item-description {
+	background-color: #d5d5d5;
+	text-align: auto;
+/*	margin-left: 10px;*/
+	margin-bottom: 15px;
+}
+
+
+/*Desktop md*/
+/*@media (min-width: 992px) {
+}*/
+@media (min-width: @screen-md-min) {
+
+}
+
+/*Table sm*/
+/*@media (min-width: 768px) and (max-width: 991px) {
+}*/
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+}
+
+/*Mobile xs*/
+/*@media (max-width: 767px) {
+		#collapsable-nav {
+	margin-right: -25px;
+}*/
+@media (max-width: @screen-xs-max) {
+
+}
